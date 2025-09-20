@@ -1,0 +1,35 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.t("TxCJfd");
+_.Ir=class{constructor(a,b,c){this.name=a;this.oa=b;this.Aa=c}getName(){return this.name}};
+_.v();
+}catch(e){_._DumpException(e)}
+try{
+_.t("HUEBbc");
+_.Jcp=function(a){if((new URLSearchParams(_.rv(a.Dc))).get("gsc")!=="2")return!1;try{return a.window.get().self!==a.window.get().top}catch(b){return!0}};_.Kcp=class extends _.zo{static Sa(){return{service:{window:_.Ao,Dc:_.sv}}}constructor(a){super();this.window=a.service.window;this.Dc=a.service.Dc}};_.af(_.iab,_.Kcp);
+_.v();
+}catch(e){_._DumpException(e)}
+try{
+_.rWe=[1,2,3,4,5,6,7,8];
+}catch(e){_._DumpException(e)}
+try{
+_.qWe=class extends _.m{constructor(a){super(a)}};
+}catch(e){_._DumpException(e)}
+try{
+var uWe;_.sWe=[0,_.E,_.JPc,_.Sk,_.H,1,_.H];_.tWe=[0,_.rWe,_.Rk,[0,_.E,-2,_.Sk],_.Rk,[0,_.E,-3],_.Rk,[0,_.E,-2,[0,_.H,_.C]],_.Rk,[0,_.E,-1],_.Rk,[0,_.E,-1],_.Rk,[0,_.E],_.Rk,[0,_.E,-1,[0,_.E,-5,_.C,_.D,-1,_.C],_.H],_.Rk,[0,_.E,-5]];_.vWe=function(){var a=new uWe;return _.Xg(a,1,!0)};uWe=class extends _.m{constructor(a){super(a)}};_.wWe=[3,4];_.xWe=class extends _.m{constructor(a){super(a)}Ba(){return _.B(this,1)}Ca(){return _.Uj(this,1)}getConfiguration(){return _.n(this,uWe,3)}setConfiguration(a){return _.Eb(this,uWe,3,a)}};_.xWe.prototype.Aa=_.Mb([0,_.E,_.G,[0,_.E,-2,[0,_.wWe,_.H,1,_.Rk,[0,_.Sk,_.sWe],_.Rk,[0,_.E,-1]],_.H],[0,_.D,-2],[0,_.E,-1,_.H,_.D,5,_.tWe,_.E]]);
+}catch(e){_._DumpException(e)}
+try{
+_.lf(_.i1a);
+}catch(e){_._DumpException(e)}
+try{
+_.yWe=class extends _.m{constructor(a){super(a)}};_.zWe=class extends _.m{constructor(a){super(a)}Aa(a){_.Ah(this,2,_.qWe,a)}Ca(){return _.n(this,_.yWe,8)}Ba(a){_.Eb(this,_.yWe,8,a)}};
+}catch(e){_._DumpException(e)}
+try{
+_.t("hjoqoe");
+var rtC=class extends _.m{constructor(a){super(a)}};var stC=class extends _.m{constructor(a){super(a)}},ttC=[1];var utC=_.Jb([0,ttC,_.Rk,[0,_.dl]]);var vtC=class extends _.m{constructor(a){super(a)}};var wtC=class extends _.m{constructor(a){super(a)}};var xtC=class extends _.m{constructor(a){super(a)}Be(){return _.n(this,wtC,1)}gF(){return _.fi(this,wtC,1)}};var ytC=[1,2];var ztC=_.Ib(class extends _.m{constructor(a){super(a)}},[0,ytC,_.Rk,[0,_.dl],_.Rk,[0,[0,_.E,_.G,[0,_.E,_.JPc,1,_.H],_.H]]]);var AtC=[0],BtC=function(a,b){return _.y(function*(){a.Ca.has("AiModeInput")||a.Ca.set("AiModeInput",[]);a.Ca.get("AiModeInput").push(b);return()=>_.y(function*(){if(a.Ca.has("AiModeInput")){const c=a.Ca.get("AiModeInput"),d=c.indexOf(b);d>=0&&c.splice(d,1);c.length===0&&a.Ca.delete("AiModeInput")}})})};
+_.af(_.jab,class extends _.zo{static Sa(){return{service:{window:_.Ao,h$a:_.Kcp}}}constructor(a){super();this.Ca=new Map;this.window=a.service.window;this.h$a=a.service.h$a;this.window.get().addEventListener("message",b=>{if(b.origin==="chrome-untrusted://lens")switch(b=ztC(b.data),_.ui(b,ytC)){case 1:b=_.Mg(b,vtC,1,ytC);_.$i(b,1,_.ng());b=this.sendMessage;var c=new stC;var d=new rtC;d=_.pBa(d,1,AtC);c=_.Ai(c,1,ttC,d);b.call(this,c);break;case 2:if(!_.Mg(b,xtC,2,ytC).gF())throw Error("hD");this.handleEvent("AiModeInput",
+_.Mg(b,xtC,2,ytC).Be(),_.zWe)}},!1)}isAvailable(){return _.Jcp(this.h$a)}Ta(a){return BtC(this,a)}Da(){return!1}Ea(){return!1}oa(){return!1}Na(){return!1}Aa(){return!1}Ka(){return Promise.resolve(void 0)}Ba(){return Promise.resolve(void 0)}Ja(){return Promise.resolve(void 0)}handleEvent(a,b,c){if(this.Ca.has(a)){b=_.Qb(c,b.serialize());a=[...this.Ca.get(a)];for(const d of a)d(b)}}sendMessage(a){a=utC(a);this.window.get().parent.postMessage(a,"chrome-untrusted://lens")}});
+_.v();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
